@@ -35,3 +35,5 @@ e.g. home/pictures/GooglePhotosArchive/takeout-20200101T21000Z-001/Takeout
 4) Display a super amazing spinner while working...
 5) Print a user success message that includes the new 
    folders printed in a list and a total count of the images moved.
+
+Thanks to [Tagar](https://github.com/Tagar/stuff/blob/master/spinner.py) for making a solid spinner script!
