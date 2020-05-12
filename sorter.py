@@ -22,13 +22,13 @@ if os.path.exists(parent_directory):
     for folder in sub_folders:
         print(folder)
 
-    new_parent_directory = input("Please enter a folder name for your moved files:\n")
+    new_parent_directory = input("Please enter a folder name for your copied files:\n")
 
     """
-    Added spinning cursor because moving large amounts of images can take a while.
+    Added spinning cursor because copying large amounts of images can take a while.
     """
 
-    with Spinner("Moving images to '%s'... this could take a few minutes" % new_parent_directory):
+    with Spinner("Copying images to '%s'... this could take a few minutes" % new_parent_directory):
         sub_folder_list = []
         images_count = 0
         file_ext = ('*.jpg', "*.JPG")
